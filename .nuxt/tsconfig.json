@@ -105,7 +105,7 @@
         "./imports"
       ],
       "#app-manifest": [
-        "./manifest/meta/6ff731ea-0b8a-4f0f-bba7-60bc8f8d5ff8.json"
+        "./manifest/meta/cae4699f-c680-417f-a8c6-31149f376509.json"
       ],
       "#components": [
         "./components"
@@ -164,7 +164,6 @@
   "exclude": [
     "../dist",
     "../node_modules",
-    "../../node_modules",
     "../node_modules/nuxt/node_modules",
     "../node_modules/@nuxt/icon/node_modules",
     "../node_modules/notivue/node_modules",

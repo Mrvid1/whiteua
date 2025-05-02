@@ -2,11 +2,7 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
-  devtools: { enabled: true },
-  target: 'static', // Генерируем статический сайт
-  generate: {
-    fallback: '404.html' // Файл для SPA-роутинга
-  },
+  
   css: [
     '~/assets/css/main.css',
     'notivue/notification.css', // Для уведомлений
