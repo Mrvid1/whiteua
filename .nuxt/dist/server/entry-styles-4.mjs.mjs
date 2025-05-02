@@ -1,0 +1,5 @@
+const notificationsProgress = "@media (prefers-reduced-motion:no-preference){.Notivue__notification:has(.Notivue__progress){border-radius:var(--nv-radius,0) var(--nv-radius,0) var(--nv-radius,0) 0}.Notivue__notification:has(.Notivue__progress) .Notivue__content-message{margin-bottom:var(--nv-progress-height,4px)}.Notivue__progress{animation:Notivue__progress-kf var(--nv-anim-dur) linear forwards;background-color:var(--nv-accent);border-radius:0 var(--nv-radius,0) var(--nv-radius,0) 0;bottom:0;height:var(--nv-progress-height,4px);left:0;position:absolute;transform-origin:left;width:100%}[dir=rtl] .Notivue__progress{border-radius:var(--nv-radius,0) 0 0 var(--nv-radius,0);transform-origin:right}[dir=rtl] .Notivue__notification:has(.Notivue__progress){border-radius:var(--nv-radius,0) var(--nv-radius,0) 0 var(--nv-radius,0)}@keyframes Notivue__progress-kf{0%{transform:scaleX(1)}to{transform:scaleX(0)}}}@media (prefers-reduced-motion:reduce){.Notivue__progress{display:none}}";
+export {
+  notificationsProgress as default
+};
+//# sourceMappingURL=entry-styles-4.mjs.mjs.map

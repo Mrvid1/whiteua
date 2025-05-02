@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+body {
+    @apply bg-neutral-200;
+    font-family: 'Tektur', sans-serif;
+}
+
+.router-link-active{
+    @apply ring-2 ring-green-500 ;
+}
